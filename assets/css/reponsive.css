@@ -922,7 +922,7 @@ color: #FFFFFF;
   }
 
   .mobile-icon a{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -977,7 +977,7 @@ color: #FFFFFF;
 
 
   .meal h3{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -1007,7 +1007,7 @@ color: #FFFFFF;
     position: unset;   
     font-family: 'Poppins' sans-serif;
     font-style: normal;
-    font-weight:bolder !important;
+    font-weight:600;
     font-size: 36px;
     line-height: 45px;
     /* or 125% */
@@ -1024,7 +1024,7 @@ color: #FFFFFF;
     width: 284px;
     height: 81px;
     left: 24px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -1054,7 +1054,7 @@ color: #FFFFFF;
   }
 
   .service-about h3{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 7.5vw;
@@ -1065,7 +1065,7 @@ color: #FFFFFF;
   }
 
   .service-about p{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -1076,7 +1076,7 @@ color: #FFFFFF;
   }
 
   .card-title{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -1096,7 +1096,7 @@ color: #FFFFFF;
   }
 
    .meal p{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 4vw;
@@ -1210,7 +1210,7 @@ color: #FFFFFF;
     width: 101%;
     height: 50px;
     padding: 0px  24px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
@@ -1224,7 +1224,7 @@ color: #FFFFFF;
     position: relative;
     top: 50px;
     left:40px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -1290,7 +1290,7 @@ color: #FFFFFF;
   padding-right: 24px;
   width: 317px;
 height: 27px;
-  font-family: Poppins;
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size:5vw;
