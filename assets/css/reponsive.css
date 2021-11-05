@@ -777,7 +777,7 @@
   
   .footer-about p {
     position: relative;
-    left: -39px !important;
+    left: -39px ;
     width: 310px;
     height: 120px;
     padding: 0px  24px;
@@ -917,8 +917,8 @@ color: #FFFFFF;
   }
 
   .hero::before{
-    width: 320px;
-    left:30px;
+    width: 374px;
+    left:0px;
   }
 
   .mobile-icon a{
@@ -931,14 +931,17 @@ color: #FFFFFF;
     text-decoration: none;
   }
   .menu-toggle .bar{
-    left: 115px;
+    left: 147px;
+    top: 2px;
+    width:20px;
+    height: 2px;
   }
   .image {
       position: relative;
-      width: 412px;
+      width: 108%;
       height: 350px;
-      left: -11px;
-      top:-48px;
+      left: -13px;
+      top:-60px;
       border-radius: 0%;
   }
 
@@ -956,13 +959,18 @@ color: #FFFFFF;
     height: 311px;
   }
 
+  .fame::before{
+    top: 156px;
+    left: 5%;
+  }
+
   .image a{
       left: 65%;
       top: 32px;
   }
 
   .about{
-    padding-top: 40px;
+    padding-top: 0px;
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -982,10 +990,10 @@ color: #FFFFFF;
   }
 
   .example img{
-    max-width: 548px;
+    max-width: 557px;
     height: 445px;
     position: relative;
-    right: 30%;
+    right: 21%;
   }
 
 
@@ -996,12 +1004,10 @@ color: #FFFFFF;
 
 
   .about h3{
-    position: unset;
-    width: 290px;
-    height: 90px;    
+    position: unset;   
     font-family: Poppins;
     font-style: normal;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 36px;
     line-height: 45px;
     /* or 125% */
@@ -1043,7 +1049,7 @@ color: #FFFFFF;
   .google-app{
     padding:30px 30px;
     position: relative;
-    left: 12%;
+    left: 6%;
     
   }
 
@@ -1170,7 +1176,7 @@ color: #FFFFFF;
   .footer-subscribe input {
     position: relative;
     left: 14% !important;
-    width: 80%;
+    width: 90%;
     height: 44px;
 }
 
@@ -1182,6 +1188,10 @@ color: #FFFFFF;
       top: -40px;
       background: #F1BE07;
       border-radius: 10px;
+  }
+
+  .footer-subscribe{
+    padding-top: 0px;
   }
 
   .social-icon{
@@ -1196,9 +1206,9 @@ color: #FFFFFF;
   
   .footer-about p {
     position: relative;
-    left: 0px !important;
-    width: 310px;
-    height: 120px;
+    left: 0px;
+    width: 101%;
+    height: 50px;
     padding: 0px  24px;
     font-family: Poppins;
     font-style: normal;
@@ -1310,6 +1320,8 @@ color: #FFFFFF;
 }
 
 }
+
+
 @media screen and (max-width:414px) {
   .meal-heading{
     width: 455px;
@@ -1319,19 +1331,50 @@ color: #FFFFFF;
   .meal p{
     left: 67px;
   }
+
+  .tribe-row{
+    left: 45px;
+  }
+}
+
+
+@media screen and (max-width:411px) {
+    .tribe-row{
+      left: 44px;
+    }
+
+    .wallet-image img{
+      position: absolute;
+      left: 34px;
+    }
+
+    .service img{
+      left: -30px;
+
+    }
+    
+    .service{
+      left: 80px;
+    }
 }
 
 @media screen and (max-width:375px) {
   .footer-logo {
-    /* position: relative; */
     left: 100px;
 }
 
 .tribe-card {
-  right:30px;
+  right:35px;
 }
+
+.tribe-row{
+  left: 49px;
+}
+
+
+
 .footer-about p{
-  left: -19px !important;
+  left: 0px;
 }
 
 
@@ -1340,7 +1383,7 @@ color: #FFFFFF;
 }
 
 .footer-subscribe input[type=submit] {
-   left: 48% !important;
+   left: 48% ;
 }
 
 .footer-nav{
@@ -1366,6 +1409,52 @@ color: #FFFFFF;
   .google-app{
     padding: 40px 30px;
   }
+
+  .service{
+    left: 64px;
+  }
+
+  .tribe-card{
+    right: 43px;
+  }
+
+  .example img{
+    max-width: 525px;
+  }
+
+  .meal-heading{
+    left: -62px;
+  }
+
+  .footer-text h3 {
+    left: 13px;
+  }
+
+  .footer-text h6 {
+    left: 26px;
+  }
+
+  .footer-text p{
+    left: 25px;
+  }
+
+  .play img {
+    left:5px;
+  }
+
+  .footer-about p{
+    width: 113%;
+    left: -17px;
+    height: 100px;
+  }
+
+  .footer-subscribe {
+    padding-top: 50px;
+  }
+
+  .footer-nav {
+    left: -20px;
+  }
 }
 
 
@@ -1384,6 +1473,11 @@ color: #FFFFFF;
     left: 35px;
     
   }
+
+  /* .fame::before{
+    top: 145px ;
+    left: 7%;
+  } */
 
   nav .logo{
     left: 25px;
@@ -1411,7 +1505,7 @@ color: #FFFFFF;
     left: 115px;
     width: 20px;
     height: 2px;
-    top: 30px;
+    top: 5px;
   }
   .image {
       position: relative;
@@ -1442,7 +1536,7 @@ color: #FFFFFF;
   }
 
   .about{
-    padding-top: 40px;
+    padding-top: 0px;
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -1461,8 +1555,8 @@ color: #FFFFFF;
   }
 
   .example img{
-    max-width: 548px;
-    height: 445px;
+    max-width: 500px;
+    height: 368px;
     position: relative;
     right: 30%;
   }
@@ -1483,19 +1577,19 @@ color: #FFFFFF;
     font-size: 36px;
     line-height: 45px;
     /* or 125% */
-    position: unset;
+    position: relative;
     letter-spacing: 0.05em;
-    
+    left: -13px;
     color: #F1BE07;
     
     
   }
 
   .about p{
-    position: unset;
+    position: relative;
     width: 270px;
     height: 81px;
-    left: 24px;
+    left: -8px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 300;
@@ -1504,7 +1598,11 @@ color: #FFFFFF;
   }
 
   .store{
-    left: 0px;
+    left: -9px;
+  }
+
+  .wallet-image img{
+    left: 5px;
   }
 
   .service-about h3{
@@ -1628,7 +1726,7 @@ color: #FFFFFF;
   .meal-heading {
       /* width: 100%;
       height: 374px; */
-      left: 0px;
+      left: -8px;
       top: 5px;
       padding:30px 30px;
       border-radius: 0%;
@@ -1643,8 +1741,8 @@ color: #FFFFFF;
 
   .footer-subscribe input {
     position: relative;
-    left: -3% !important;
-    width: 80%;
+    left: 0% !important;
+    width: 86%;
     height: 44px;
 }
 
@@ -1670,8 +1768,8 @@ color: #FFFFFF;
   
   .footer-about p {
     position: relative;
-    left: -39px !important;
-    width: 310px;
+    left: -30px !important;
+    width: 110%;
     height: 120px;
     padding: 0px  24px;
     font-family: Poppins;
@@ -1718,11 +1816,11 @@ color: #FFFFFF;
   .footer-nav {
     position: relative;
     top: 20px;
-    left: -59px;
+    left: -36px;
     text-align: center;
 }
 .footer-subscribe h3{
-  /* text-align: center; */
+  text-align: inherit;
 }
 
 
@@ -1740,7 +1838,7 @@ color: #FFFFFF;
 }
 
 .footer-text h6{
-  left: 11px;
+  left: 7px;
   font-size: 15px;
   padding-left: 24px;
   padding-right: 24px;
@@ -1749,8 +1847,8 @@ color: #FFFFFF;
 }
 
 .footer-text p{
-  font-size: 18px;
-  left: 9px;
+ 
+  left: 6px;
   top: 359px;
   padding-left: 24px;
   padding-right: 24px;
@@ -1782,7 +1880,7 @@ color: #FFFFFF;
 }
 
 .tribe-card{
-  right: 10px;
+  right: 13px;
   background: #E9C041;
   border: 0.2px solid #E3E3E3;
   box-sizing: border-box;

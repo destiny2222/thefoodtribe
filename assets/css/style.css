@@ -6,10 +6,7 @@
 }
 
 body{
-/* overflow-y: scroll; */
-font-family: 'Poppins', sans-serif;
-background: #F7F7F7;
-/* border-radius: 20px; */
+font-family: Poppins;
 }
 
 .logo{
@@ -136,7 +133,17 @@ color: #000000;
     /* width: 742px; */
     left:-10%;
     top: 30%;
-    
+   
+}
+
+.fame::before{
+    position: absolute;
+    content: "";
+    width: 358px;
+    height: 149px;
+    background: url(../img/Background.png)no-repeat;
+    top: 60%;
+    left: 10%;
 }
 
 .fame img{
