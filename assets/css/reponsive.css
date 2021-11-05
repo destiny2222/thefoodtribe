@@ -1406,6 +1406,8 @@ color: #FFFFFF;
   }
   .menu-toggle .bar{
     left: 115px;
+    width: 24px;
+    height: 2px;
   }
   .image {
       position: relative;
