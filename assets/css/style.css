@@ -582,8 +582,8 @@ nav{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    height: 90px;
-    padding: 5px 100px;
+    height: 80px;
+    padding: 4px 100px;
   }
   nav .logo{
     color: #fff;
