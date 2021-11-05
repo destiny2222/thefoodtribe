@@ -201,7 +201,7 @@
   .image {
       position: relative;
       width: 768px;
-      height: 350px;
+      height: 400px;
       left: -36px;
       top: -48px;
       top:-48px;
@@ -939,7 +939,7 @@ color: #FFFFFF;
   .image {
       position: relative;
       width: 108%;
-      height: 360px;
+      height: 387px;
       left: -13px;
       top:-60px;
       border-radius: 0%;
@@ -960,7 +960,7 @@ color: #FFFFFF;
   }
 
   .fame::before{
-    top: 156px;
+    top: 184px;
     left: 5%;
   }
 
