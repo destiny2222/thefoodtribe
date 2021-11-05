@@ -1007,12 +1007,12 @@ color: #FFFFFF;
     position: unset;   
     font-family: Poppins;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 36px;
     line-height: 45px;
     /* or 125% */
     
-    letter-spacing: 0.05em;
+    letter-spacing:5%;
     
     color: #F1BE07;
     
