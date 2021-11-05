@@ -1005,7 +1005,7 @@ color: #FFFFFF;
 
   .about h3{
     position: unset;   
-    font-family: Poppins;
+    font-family: 'Poppins' sans-serif;
     font-style: normal;
     font-weight:700 !important;
     font-size: 36px;
