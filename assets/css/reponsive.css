@@ -1358,6 +1358,18 @@ color: #FFFFFF;
     }
 }
 
+@media screen and (max-width:390px) {
+  .tribe-row {
+    left: 34px;
+}
+.example img {
+  max-width: 545px;
+  height: 445px;
+  position: relative;
+  right: 21%;
+}
+}
+
 @media screen and (max-width:375px) {
   .footer-logo {
     left: 100px;
